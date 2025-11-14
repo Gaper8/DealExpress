@@ -1,8 +1,10 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
-const { AppError } = require('../utils/errors');
+const { AppError } = require('../utils/error');
+require('dotenv').config('../../.env');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'votre_secret_jwt';
+const JWT_EXPIRE = process.env.JWT_EXPIRE;
 
 // Générer un token JWT
 const generateToken = (userId) => {

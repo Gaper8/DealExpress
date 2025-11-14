@@ -1,0 +1,25 @@
+[2025-11-14T15:32:40.114Z] ERROR: GET /api/auth/register - Route GET /api/auth/register non trouvée
+Stack: Error: Route GET /api/auth/register non trouvée
+    at notFoundHandler (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\src\middlewares\error.middleware.js:35:17)
+    at Layer.handle [as handle_request] (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\body-parser\lib\types\json.js:113:7)
+[2025-11-14T15:32:50.332Z] ERROR: POST /api/auth/register - Erreur de validation
+Stack: Error: Erreur de validation
+    at validate (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\src\middlewares\validate.middleware.js:20:29)
+    at Layer.handle [as handle_request] (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\route.js:149:13)
+    at middleware (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express-validator\lib\middlewares\check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
