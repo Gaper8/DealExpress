@@ -23,3 +23,10 @@ Stack: Error: Erreur de validation
     at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\route.js:149:13)
     at middleware (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express-validator\lib\middlewares\check.js:16:13)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-11-14T15:38:12.269Z] ERROR: POST /api/auth/login - Erreur de validation
+Stack: Error: Erreur de validation
+    at validate (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\src\middlewares\validate.middleware.js:20:29)
+    at Layer.handle [as handle_request] (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express\lib\router\route.js:149:13)
+    at middleware (C:\Users\gabri\Documents\Ynov\B3 info\Cours Api\Tp_final\node_modules\express-validator\lib\middlewares\check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
